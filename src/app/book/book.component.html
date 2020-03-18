@@ -1,0 +1,47 @@
+
+
+<h2>My Books</h2>
+<ul class="books">
+  <li *ngFor="let book of books">
+    <span class="badge">{{book.id}}</span> {{book.name}}
+  </li>
+</ul>
+<div class="error" *ngIf="errorMessage">{{errorMessage}}</div>
+
+<div style="margin-top: 200px;margin-bottom: 200px;">
+
+  <select [(value)]="selected_book">
+    <option *ngFor="let book of books" [value]="book.name">
+        {{book.name}}
+    </option>
+
+  </select>
+
+  <br><br>
+
+  <select [(value)]="selected_pen">
+    <option *ngFor="let pen of pens" [value]="pen.name">
+        {{pen.name}}
+    </option>
+
+  </select>
+
+  <br><br>
+
+  <p>Books from common json file</p>
+
+  <select [(value)]="selected_book_common">
+    <option *ngFor="let b of booksFromCommonJson" [value]="b.name">
+        {{b.name}}
+    </option>
+
+  </select>
+
+
+  <p>
+      To see the object returned from the common json 
+      open console
+  </p>
+
+</div>
+

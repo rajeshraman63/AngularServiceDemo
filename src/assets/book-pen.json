@@ -1,0 +1,36 @@
+{
+    "Books":[
+        {   "id": 1, "name": "HTML 5"  },
+        {   "id": 2, "name": "CSS 3"   },
+        {   "id": 3, "name": "Java Script"  },
+        {   "id": 4, "name": "Ajax Programming" },
+        {   "id": 5, "name": "jQuery"  },
+        {   "id": 6, "name": "Mastering Node.js"  },
+        {   "id": 7, "name": "Angular JS 1.x"  },
+        {   "id": 8, "name": "ng-book 2" },
+        {   "id": 9, "name": "Backbone JS" },
+        {   "id": 10, "name": "Yeoman" }
+    ],
+
+    "Pens":[
+        {   "id": 1, "name": "Pen 1"  },
+        {   "id": 2, "name": "Pen 2"  },
+        {   "id": 3, "name": "Pen 3"  },
+        {   "id": 4, "name": "Pen 4"  },
+        {   "id": 5, "name": "Pen 5"  },
+        {   "id": 6, "name": "Pen 6"  },
+        {   "id": 7, "name": "Pen 7"  },
+        {   "id": 8, "name": "Pen 8"  }
+    ],
+
+    "Movies":[
+        "Alita:The Battle Angle",
+        "Ready Player One",
+        "Superman",
+        "Superman V Batman",
+        "Dark Knight Rises",
+        "Koi Mil Gaya"
+    ]
+
+
+}
