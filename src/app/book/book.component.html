@@ -19,7 +19,7 @@
 
   <br><br>
 
-  <select [(value)]="selected_pen">
+  <select [(value)]="selected_pen" class="badge">
     <option *ngFor="let pen of pens" [value]="pen.name">
         {{pen.name}}
     </option>

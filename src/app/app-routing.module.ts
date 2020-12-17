@@ -13,6 +13,10 @@ const routes: Routes = [
     {
       path:'books',
       component:BookComponent
+    },
+    {
+      path: '*',
+      component: HomeComponent
     }
 
 ];
